@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="./asset/dragon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <!--Grant location access container -->
+            <div class="grant-loc-container">
+                <img src="/asset/location.png" width="80" height="80" loading="lazy">
+                <p>grant location access</p>
+                <p>Allow Location Access to get Weather Info</p>
+                <button class="loc-btn" data-grantAccess>Grant Access</button>
+            </div>
+            <!--- loading screen container -->
+            <div class="sub-container loading-container">
+                <img src="./asset/loading.gif" width="150" height="150">
+                <p>Loading</p>
+            </div>
+            <div class="w-cont">
+                <div class="weather-info-container">
+                    <h1 class="heading-main">Weather app</h1>
+                    <div class="name">
+                        <p data-cityName></p>
+                        <img data-countryIcon> 
+                    </div>
+                    <!--weather desc.-->
+                    <p data-weatherDesc></p>
+                    <!--weather icon-->
+                    <img data-weatherIcon>
+                    <!--temp.-->
+                    <p data-temp></p>
+                    <!--3 cards-->
+                    <div class="parameter-container">
+                        <div class="parameter">
+                            <img src="/asset/wind.png" >
+                            <p>Windspeed</p>
+                            <p data-windSpeed></p>
+                        </div>
+                        <div class="parameter">
+                            <img src="/asset/humidity.png" >
+                            <p>humidity</p>
+                            <p data-humidity></p>
+                        </div>
+                        <div class="parameter">
+                            <img src="/asset/cloud.png" >
+                            <p>Cloudiness</p>
+                            <p data-cloudiness></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
