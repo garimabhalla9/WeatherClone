@@ -1,4 +1,4 @@
-# WeatherClone
+# WeatherApp
 
 1) This is a simple weather application which is built using HTML, CSS, Javascript.
 2) It fetches the local weather at your current place using REST API.
