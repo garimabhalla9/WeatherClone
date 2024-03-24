@@ -1,1 +1,1 @@
-# WeatherClone
+# WeatherApp
