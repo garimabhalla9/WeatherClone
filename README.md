@@ -10,6 +10,9 @@ HTML- Used to store all the data in markup format.
 CSS- Used to add styles and formatting the webpage.
 Javascript- Used to add functions to fetch the weather data using REST API.
 
+# Deployment
+here is the deployment link: https://weatherclone-app.netlify.app
+
 # Getting Started
  1) Simply open the final branch which includes all files and images.
 1) Clone the repo or download the zip file- https://github.com/garimabhalla9/WeatherClone.git
